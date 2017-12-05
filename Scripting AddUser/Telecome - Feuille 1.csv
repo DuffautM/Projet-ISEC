@@ -1,0 +1,15 @@
+FirstName,Initials ,LastName ,FullName,UserLogonName,Groupe,Password
+Olivier,OR,ROUSSEAUX,Olivier ROUSSEAUX,orousseaux,tDirection,Azerty123
+Lucie,LD,DETRICH,Lucie DETRICH,ldetrich,tDirection,Azerty123
+Lionel,LG,Gabru,Lionel Gabru,lgabru,tTechnique,Azerty123
+France,FB,BALLET,France BALLET,fballet,tTechnique,Azerty123
+Paul,PL,LEMARIE,Paul LEMARIE,plemarie,tTechnique,Azerty123
+Hugues,HV,VANCHEZ,Hugues VANCHEZ,hvanchez,tTechnique,Azerty123
+Luc,LD,DUPRE,Luc DUPRE,ldupre,tCommercial,Azerty123
+Jean,JT,TREMIS,Jean TREMIS,jtremis,tCommercial,Azerty123
+Grégoire,GJ,JOLET,Grégoire JOLET,gjolet,tCommercial,Azerty123
+Olivia,OG,GABRIEL,Olivia GABRIEL,ogabriel,tAdminFinance,Azerty123
+Hélène,HM,MINGEA,Hélène MINGEA,hmingea,tAdminFinance,Azerty123
+Danièle,DT,TROC,Danièle TROC,dtroc,tAdminFinance,Azerty123
+Bastien,BL,PAL,Bastien PAL,bpal,tRH,Azerty123
+Nora,NB,BUSQUET,Nora BUSQUET,nbusquet,tRH,Azerty123
