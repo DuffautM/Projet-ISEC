@@ -18,9 +18,9 @@ foreach ($user in $users){
 
     switch($user.Groupe){
         "gDirection" {$Groupe = "OU = Direction, DC = isec-group, DC = local, CN =$Name"}
-        "gMétier" {$Groupe = "OU = Métier, DC = isec-group, DC = local, CN =$Name"}
-        "gCommunication" {$Groupe = "OU = Communication, DC = isec-group, DC =local, CN =$Name"}
-        "gFinance" {$Groupe = "OU = Administration, DC = isec-group, DC =local, CN =$Name"}
+        "gMétiers" {$Groupe = "OU = Métiers, DC = isec-group, DC = local, CN =$Name"}
+        "gComm" {$Groupe = "OU = Comm, DC = isec-group, DC =local, CN =$Name"}
+        "gFinance" {$Groupe = "OU = Finance, DC = isec-group, DC =local, CN =$Name"}
         "gRH"{$Groupe = "OU = RH, DC = isec-group, DC = local, CN =$Name"}
         "tDirection" {$Groupe = "OU = tDirection, DC = tf42-group, DC = local, CN =$Name"}
         "tTechnique" {$Groupe = "OU = tTechnique, DC = tf42-group, DC = local, CN =$Name"}
