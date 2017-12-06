@@ -12,31 +12,31 @@ foreach ($user in $users){
     $Name = $user.FullName
     $Login = $user.UserLogonName
     $Groupe = $user.Groupe
+    $ou = $null
     $Upassword = $user.Password
     
     
 
     switch($user.Groupe){
-        "gDirection" {$Groupe = "OU = Direction, DC = isec-group, DC = local, CN =$Name"}
-        "gMétiers" {$Groupe = "OU = Métiers, DC = isec-group, DC = local, CN =$Name"}
-        "gComm" {$Groupe = "OU = Comm, DC = isec-group, DC =local, CN =$Name"}
-        "gFinance" {$Groupe = "OU = Finance, DC = isec-group, DC =local, CN =$Name"}
-        "gRH"{$Groupe = "OU = RH, DC = isec-group, DC = local, CN =$Name"}
-        "tDirection" {$Groupe = "OU = tDirection, DC = tf42-group, DC = local, CN =$Name"}
-        "tTechnique" {$Groupe = "OU = tTechnique, DC = tf42-group, DC = local, CN =$Name"}
-        "tCommercial" {$Groupe = "OU = tCommercial, DC = tf42-group, DC = local, CN =$Name"}
-        "tAdminFinance" {$Groupe = "OU = tAdminFinance, DC = tf42-group, DC = local, CN =$Name"}
-        "tRH" {$Groupe = "OU = tRH, DC = tf42-group, DC = local, CN =$Name"}
-        default {$Groupe = $null}    
+        "gDirection" {$ou = "OU = Direction, DC = isec-group, DC = local, CN =$Name"}
+        "gMétiers" {$ou = "OU = Métiers, DC = isec-group, DC = local, CN =$Name"}
+        "gComm" {$ou = "OU = Comm, DC = isec-group, DC =local, CN =$Name"}
+        "gFinance" {$ou = "OU = Finance, DC = isec-group, DC =local, CN =$Name"}
+        "gRH"{$ou = "OU = RH, DC = isec-group, DC = local, CN =$Name"}
+        "tDirection" {$ou = "OU = tDirection, DC = tf42-group, DC = local, CN =$Name"}
+        "tTechnique" {$ou = "OU = tTechnique, DC = tf42-group, DC = local, CN =$Name"}
+        "tCommercial" {$ou = "OU = tCommercial, DC = tf42-group, DC = local, CN =$Name"}
+        "tAdminFinance" {$ou = "OU = tAdminFinance, DC = tf42-group, DC = local, CN =$Name"}
+        "tRH" {$ou = "OU = tRH, DC = tf42-group, DC = local, CN =$Name"}    
     }
     
      try {
-            New-ADUser -Name $Name -SamAccountName $Login -UserPrincipalName $Login -DisplayName $Name -GivenName $Fname -Surname $Lname -AccountPassword (ConvertTo-SecureString $Upassword -AsPlainText -Force)  -Department $Groupe -Enabled $true
-            echo "Utilisateur ajouté : $Name"
+            New-ADUser -Name $Name -SamAccountName $Login -UserPrincipalName $Login -DisplayName $Name -GivenName $Fname -Surname $Lname -AccountPassword (ConvertTo-SecureString $Upassword -AsPlainText -Force)  -Path $ou -Enabled $true
+            Write-Host -ForegroundColor Green "Utilisateur ajouté : $Name"
           
            
         } catch{
-            echo "utilisateur non ajouté : $Name"
+            Write-Host -ForegroundColor Red "utilisateur non ajouté : $Name"
        }   
 
    }
