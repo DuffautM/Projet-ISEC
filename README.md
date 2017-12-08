@@ -6,17 +6,19 @@
 
 #### Objectifs et enjeux
 
-	Pour notre 1ère année en cycle d'Ingénieur au sein de l'école *C*ESI.EXIA à Toulouse**, nous avons dû réaliser un projet en réseau. Ce projet avait pour but de nous faire réaliser une architeture d'annuaire avec installation de service reposant sur Active Directory et supervision des installations.
+Pour notre 1ère année en cycle d'Ingénieur au sein de l'école **CESI.EXIA à Toulouse**, nous avons dû réaliser un projet en réseau. Ce projet avait pour but de nous faire réaliser une architeture d'annuaire avec installation de service reposant sur Active Directory et supervision des installations.
 
-	Pour ce projet, une entreprise, ISEC, ayant récemment acquis une filiale dans les télécoms souhaiterait rajouter cette dernière dans son réseau.
-
-![WBS](/Livrables/Images/wbs.jpg)
+Pour ce projet, une entreprise, ISEC, ayant récemment acquis une filiale dans les télécoms souhaiterait rajouter cette dernière dans son réseau. La maison mère du groupe possède une forêt Active Directory dans laquelle se trouve le domaine isec-group.local. Il est contrôlé par 2 contrôleurs de domaine sous Windows Server : 1 principal et 1 réplica. L'ensembles des filiales déjà présentes sont aussi équipées de 2 contrôleurs de domaines. La nouvelle filiale télécom quant à elle, possède une forêt avec un domaine isec-telecom.local contrôlé par un unique contrôleur sous Windows Server.
 
 ### Cahier des charges 
 
 #### Diagramme de cas d'utilisation
 
 #### Besoins
+
+Selon le 
+
+![Servers&Domains](/Livrables/Images/Servers&Domains.jpg)
 
 Pour répondre aux attentes de l'entreprise, il est nécessaire d'implémenter les fonctionnalités suivantes :
 
@@ -30,24 +32,16 @@ Pour répondre aux attentes de l'entreprise, il est nécessaire d'implémenter l
 8. Actie Directory doit déployer le logiciel 7zip sur tous les postes
 9. Une relation d'approbation doit être établie entre les 2 forêts, les utilisateurs du groupe principal peuvent accèder aux ressources du domaine de la filiale
 
-
-
 De plus il est demandé par l'entreprise de mettre en place un système de supervision de notre choix. Ce système a pour but de surveiller la charge de travaile des serveurs du groupe Télécom et plus particulièrement :
 
-* La charge CPU
-* La mémoire
-* L'espace disque
-* Le traffic de la carte réseau
-* Les intteruptions du services DNS
-* Les intteruptions du services DHCP
-
-
-
-
+* 		La charge CPU
+* 		La mémoire
+* 		L'espace disque
+* 		Le traffic de la carte réseau
+* 		Les interruptions du services DNS
+* 		Les interruptions du services DHCP
 
 #### Contraintes
-
-#### Test fonctionnels
 
 ### Planning
 
