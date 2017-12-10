@@ -51,7 +51,7 @@ De plus il est demandé par l'entreprise de mettre en place un système de super
 
 #### PBS
 
-![PBS](/Livrables/Images/pbs.jpg)
+![PBS](/Livrables/Images/pbs.jpeg)
 
 #### WBS
 
