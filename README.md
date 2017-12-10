@@ -34,12 +34,12 @@ Pour répondre aux attentes de l'entreprise, il est nécessaire d'implémenter l
 
 De plus il est demandé par l'entreprise de mettre en place un système de supervision de notre choix. Ce système a pour but de surveiller la charge de travaile des serveurs du groupe Télécom et plus particulièrement :
 
-* 		La charge CPU
-* 		La mémoire
-* 		L'espace disque
-* 		Le traffic de la carte réseau
-* 		Les interruptions du services DNS
-* 		Les interruptions du services DHCP
+* La charge CPU
+* La mémoire
+* L'espace disque
+* Le traffic de la carte réseau
+* Les interruptions du services DNS
+* Les interruptions du services DHCP
 
 #### Contraintes
 
@@ -47,7 +47,7 @@ De plus il est demandé par l'entreprise de mettre en place un système de super
 
 #### OBS
 
-![OBS](/Livrables/Images/obs.jpg)
+![OBS](/Livrables/Images/obs.jpeg)
 
 #### PBS
 
@@ -55,7 +55,7 @@ De plus il est demandé par l'entreprise de mettre en place un système de super
 
 #### WBS
 
-![WBS](/Livrables/Images/wbs.jpg)
+![WBS](/Livrables/Images/wbs.jpeg)
 
 #### PERT
 
