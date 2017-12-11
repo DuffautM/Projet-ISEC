@@ -12,8 +12,6 @@ Pour ce projet, une entreprise, ISEC, ayant récemment acquis une filiale dans l
 
 ### Cahier des charges 
 
-#### Diagramme de cas d'utilisation
-
 #### Besoins
 
 Selon le sujet du projet, il nous est demandé de travailler en particulier sur seulement 2 domaines en particulier du réseau comme représenté sur le schéma suivant :
@@ -67,9 +65,9 @@ De plus il est demandé par l'entreprise de mettre en place un système de super
 
 ### Définition de l'architecture
 
-#### Diagramme de composant
+#### Schéma
 
-![Composants](/Livrables/Images/componnent.jpeg)
+![Schéma](/Livrables/Images/schema.jpeg)
 
 ## Clôture du projet
 
@@ -78,10 +76,3 @@ De plus il est demandé par l'entreprise de mettre en place un système de super
 Toutes les fonctionnalités sont présentes.
 De plus des guides d’installation permettent aux utilisateurs de mettre en place l’architecture.
 Ce projet nous a permis de renforcer nos connaissances en mise en place d’un réseau d’entreprise avec diverses fonctionnalités (DNS, Active Directory, …) et en supervision de machines.
-
-
-### Planning réel
-
-## Gestion des exigences
-
-## Planification
