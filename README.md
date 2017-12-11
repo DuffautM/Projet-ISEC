@@ -16,7 +16,7 @@ Pour ce projet, une entreprise, ISEC, ayant récemment acquis une filiale dans l
 
 #### Besoins
 
-Selon le 
+Selon le sujet du projet, il nous est demandé de travailler en particulier sur seulement 2 domaines en particulier du réseau comme représenté sur le schéma suivant :
 
 ![Servers&Domains](/Livrables/Images/Servers&Domains.jpg)
 
