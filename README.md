@@ -41,8 +41,6 @@ De plus il est demandé par l'entreprise de mettre en place un système de super
 * Les interruptions du services DNS
 * Les interruptions du services DHCP
 
-#### Contraintes
-
 ### Planning
 
 #### OBS
